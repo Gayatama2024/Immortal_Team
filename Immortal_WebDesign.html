@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ind">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kopi Keramat</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FFF0D1;
+            color: black;
+        
+        }
+
+        nav {
+            background-color: #795757;
+            padding: 10px;
+            text-align:left;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            color: #3B3030;
+        }
+
+        .hero {
+            background-image: url('https://storage.googleapis.com/gcs-cockpit-prod/uploads/image/asset/530/1690728803.jpeg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            color: white;
+            padding: 20px;
+        }
+
+        .about-section, .menu-section, .order-section, .location-section, .contact-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about-section h2, .menu-section h2, .order-section h2, .location-section h2, .contact-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .menu-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 25%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .menu-item h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .menu-item p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+
+        footer {
+            background-color: #4A3F35;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order Online</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="hero">
+        <h2>Welcome to Coffe Keramat</h2>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Coffe Keramat</h2>
+        <p>Coffe Keramat is here to offer the finest coffee experience in a relaxed yet energetic atmosphere. We are committed to providing the highest quality coffee and excellent service to every one of our customers.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\Coffe Dark Skeleton.jpeg" alt="Coffe Dark Skeleton" height="200" width="250">
+                <h3>Coffe Dark Skeleton</h3>
+                <p>Price: IDR 24,000</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\Coffe Black Milk Dukun.jpeg" alt="Kopi Susu" height="200" width="250">
+                <h3>Coffe Black Milk Dukun</h3>
+                <p>Price: IDR 35,000</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\Coffe Americano Genderuwo.jpeg" alt="Coffe Americano Genderuwo" height="200" width="250">
+                <h3>Coffe Americano Genderuwo</h3>
+                <p>Price: IDR 30,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\secangkir-cappucino.jpg" alt="Coffe Cappuccino Poci" height="200" width="250">
+              <h3>Coffe Cappuccino Poci</h3>
+              <p>Price: IDR 23,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\medium_medium_Caramel_Macchiato__www.allfoodsrecipes.com_.jpg" alt="Coffe Caramel Macchiato Tuyul" height="200" width="250">
+              <h3>Coffe Caramel Macchiato Tuyul</h3>
+              <p>Price: IDR 23,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\depositphotos_78249960-stock-photo-hot-cafe-latte-and-coffee.jpg" alt="Caffè Latte Kunti" height="200" width="250">
+              <h3>Caffè Latte Kunti</h3>
+              <p>Price: IDR 25,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\Flat White.jpg" alt="Flat White Leak" height="200" width="250">
+              <h3>Flat White Leak</h3>
+              <p>Price: IDR 30,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\Users\lukma\Documents\GitHub\desktop-tutorial\sesajen.jpeg" alt="Coffe Sesajen" height="200" width="250">
+              <h3>Coffe Sesajen</h3>
+              <p>Price: IDR 45,000</p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Online Section -->
+    <section id="order" class="order-section">
+        <h2>Order Online</h2>
+        <p>Coffe Keramat is now available for online orders! Visit GoFood or GrabFood to enjoy your favorite coffee without leaving the comfort of your home.</p>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location-section">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126646.20960985303!2d112.63028078987264!3d-7.275612006081953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbf8381ac47f%3A0x3027a76e352be40!2sSurabaya%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1728616739778!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+        <p>Visit us at Coffe Keramat: Jl. Ketintang No 1, Surabaya</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Reach out to us through our social media or fill the form below.</p>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Kopi Keramat. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Add any interactive features here
+        window.onload = function() {
+            console.log('Website loaded');
+        }
+    </script>
+
+</body>
+</html>
